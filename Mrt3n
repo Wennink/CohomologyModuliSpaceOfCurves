@@ -1,0 +1,5 @@
+#Sn-equivariant Hodge-Serre polynomial of moduli spaces of n-pointed curves with rational tail of genus 3
+M30 : t^12*L^6 + t^10*L^5 + t^6
+M31 : (t^14*L^7+2*t^12*L^6+t^10*L^5+t^8*L+t^6)*s[1]
+M32 : (t^14*L^7+t^12*L^6+t^8*L)*s[1, 1] + (t^16*L^8+3*t^14*L^7+3*t^12*L^6+t^11*L^5+t^10*L^5+t^10*L^2+2*t^8*L+t^6)*s[2]
+M33 : (2*t^16*L^8+4*t^14*L^7+2*t^13*L^6+2*t^12*L^6+t^11*L^5+3*t^10*L^2+2*t^8*L)*s[2, 1] + (t^18*L^9+4*t^16*L^8+7*t^14*L^7+t^13*L^6+4*t^12*L^6+t^11*L^5+t^12*L^3+t^10*L^5+4*t^10*L^2+t^9*L+t^9+3*t^8*L+t^6)*s[3]

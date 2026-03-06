@@ -1,0 +1,3 @@
+#Sn-equivariant Hodge-Serre polynomial of moduli spaces of smooth n-pointed curves of genus 4
+M40 : t^18*L^9 + t^16*L^8 + t^14*L^7 + t^13*L^6
+M41 : (t^20*L^10+2*t^18*L^9+2*t^16*L^8+2*t^15*L^7+t^14*L^7+t^13*L^6+t^11*L^2)*s[1]
