@@ -11,3 +11,6 @@ For these two spaces we used the pullback spectral sequence to calculate the wei
 The Sn-equivariant Hodge-Serre polynomial encodes the dimensions of the weight graded pieces of the (compactly supported) cohomology groups (either $\ell$-adic \'etale cohomology or of rational Hodge structures) together with their action of the symmetric group Sn. More precisely it will consist of monomials of the form d\*t^k\*L^n\*s\[lambda\], where d is the dimension of the lambda-isotypical weight 2*n graded piece of the degree k (compactly supported) cohomology group. Moreover, all weight graded pieces appearing in the tables will be of Tate type.
 
 Note that there is redundacy in the results for rational tail. Since when n < 2, any stable curve with a rational tail is in fact a smooth curve.
+
+The zip file contains the code together with a short readme for instructions. This includes an old version of admcycles.
+I plan to integerate the code into admcycles in the near future.
