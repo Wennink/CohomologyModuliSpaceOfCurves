@@ -1,6 +1,6 @@
 # Cohomology of moduli spaces of curves.
 
-We list computational results for the paper <insert_reference>.
+We list computational results for [this paper](https://arxiv.org/abs/2603.26962).
 
 We calculate the Sn-equivariant Hodge-Serre polynomial of moduli spaces of n-pointed genus g smooth curves Mgn, curves with rational tail Mrtgn, and curves of compact type Mctgn. 
 
