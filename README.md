@@ -14,3 +14,5 @@ Note that there is redundacy in the results for rational tail. Since when n < 2,
 
 The zip file contains the code together with a short readme for instructions. This includes an old version of admcycles.
 I plan to integerate the code into admcycles in the near future.
+
+The pdfs contain some partial results that were computed.
