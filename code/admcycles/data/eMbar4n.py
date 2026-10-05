@@ -1,0 +1,15 @@
+r"""
+This data was taken from https://github.com/jonasbergstroem/Cohomology-of-moduli-spaces-of-curves/blob/main/eM4nbar.txt
+"""
+from sage.rings.all import PolynomialRing, ZZ
+from sage.combinat.sf.sf import SymmetricFunctions
+R = PolynomialRing(ZZ, 1, ('L'))
+L = R.gens()[0]
+s = SymmetricFunctions(R).schur()
+
+eMbar = {}
+# Sn-equivariant Euler characteristics of moduli spaces of stable n-pointed curves of genus 4
+eMbar[(4, 0)] = (L**9 + 4 * L**8 + 13 * L**7 + 32 * L**6 + 50 * L**5 + 50 * L**4 + 32 * L**3 + 13 * L**2 + 4 * L + 1) * s[()]
+eMbar[(4, 1)] = (L**10 + 6 * L**9 + 30 * L**8 + 93 * L**7 + 191 * L**6 + 240 * L**5 + 191 * L**4 + 93 * L**3 + 30 * L**2 + 6 * L + 1) * s[1]
+eMbar[(4, 2)] = (L**11 + 9 * L**10 + 55 * L**9 + 220 * L**8 + 561 * L**7 + 901 * L**6 + 901 * L**5 + 561 * L**4 + 220 * L**3 + 55 * L**2 + 9 * L + 1) * s[2] + (2 * L**10 + 21 * L**9 + 99 * L**8 + 277 * L**7 + 461 * L**6 + 461 * L**5 + 277 * L**4 + 99 * L**3 + 21 * L**2 + 2 * L) * s[1, 1]
+eMbar[(4, 3)] = (L**12 + 11 * L**11 + 87 * L**10 + 424 * L**9 + 1347 * L**8 + 2694 * L**7 + 3414 * L**6 + 2694 * L**5 + 1347 * L**4 + 424 * L**3 + 87 * L**2 + 11 * L + 1) * s[3] + (5 * L**11 + 58 * L**10 + 349 * L**9 + 1220 * L**8 + 2578 * L**7 + 3304 * L**6 + 2578 * L**5 + 1220 * L**4 + 349 * L**3 + 58 * L**2 + 5 * L) * s[2, 1] + (4 * L**10 + 46 * L**9 + 190 * L**8 + 446 * L**7 + 583 * L**6 + 446 * L**5 + 190 * L**4 + 46 * L**3 + 4 * L**2) * s[1, 1, 1]
